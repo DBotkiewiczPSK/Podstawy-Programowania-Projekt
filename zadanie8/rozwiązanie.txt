@@ -1,0 +1,1 @@
+magick montage -density 96 -page A4 -tile 2x4 -geometry +20+20 -label '%f' gotowe/*.jpg portfolio_A4.pdf

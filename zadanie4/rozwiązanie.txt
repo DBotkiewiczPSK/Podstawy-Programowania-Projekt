@@ -1,0 +1,1 @@
+dos2unix lista.txt lista-pop.txt && diff -u lista.txt lista-pop.txt > aktualizacja.patch && patch lista.txt < aktualizacja.patch && md5sum lista.txt lista-pop.txt
