@@ -1,1 +1,0 @@
-{ echo -e "x\ty\tz"; tr -d '\r' < dane.txt | paste - - -; } | column -t > dane-format.txt
